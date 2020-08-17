@@ -13,6 +13,7 @@ azureClientSecret: ""
 
 # Authentication - Managed Identity
 azureUseMI: False
+installAadPodIdentity: False
 
 image:
   repository: mcr.microsoft.com/k8s/azureserviceoperator:latest

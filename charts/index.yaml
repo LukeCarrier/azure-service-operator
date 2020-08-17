@@ -5,7 +5,7 @@ entries:
     appVersion: 0.1.0
     created: "2020-08-10T12:19:52.885712813+12:00"
     dependencies:
-    - condition: azureUseMI
+    - condition: installAadPodIdentity
       name: aad-pod-identity
       repository: https://raw.githubusercontent.com/Azure/aad-pod-identity/master/charts
       version: 1.5.5
